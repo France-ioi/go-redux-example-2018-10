@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "allowSyntheticDefaultImports": true,
+        "downlevelIteration": true,
+        "jsx": "React",
+        "module": "CommonJS",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "target": "ES2017",
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

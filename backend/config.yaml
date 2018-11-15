@@ -1,0 +1,19 @@
+production: false
+listen: ":8081"
+log_file: "backend.log"
+mount_path: "/backend"
+frontend_origin: "https://localhost"
+host: "localhost"
+session_name: "backend"
+session_secret: "0123456789"
+session_max_age: 172800
+datasource: "backend:password@tcp(localhost)/backend?parseTime=true"
+redis_addr: "localhost:6379"
+auth:
+    client_id: "32"
+    client_secret: "REPLACE_WITH_RANDOM_KEY"
+    redirect_url: "https://localhost/backend/LoginComplete"
+    auth_url: "https://login.france-ioi.org/oauth/authorize"
+    token_url: "https://login.france-ioi.org/oauth/token"
+    profile_url: "https://login.france-ioi.org/user_api/account"
+    logout_url: "https://login.france-ioi.org/logout"
